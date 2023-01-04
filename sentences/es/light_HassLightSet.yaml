@@ -7,14 +7,23 @@ intents:
           - "pon [el] brillo de <name> al <brightness>"
           - "pon <name> (al | con) brillo <brightness>"
           - "pon <name> a <brightness>"
+          - "ajusta [el] brillo de <name> al <brightness>"
+          - "ajusta <name> (al | con) brillo <brightness>"
+          - "ajusta <name> a <brightness>"
       - sentences:
           - "pon [el] brillo <area> [al] <brightness>"
           - "pon [el | la] <area> a brillo <brightness>"
           - "pon <area> [al] <brightness>"
+          - "ajusta [el] brillo <area> [al] <brightness>"
+          - "ajusta [el | la] <area> a brillo <brightness>"
+          - "ajusta <area> [al] <brightness>"
       - sentences:
           - "pon [el] brillo [de] <name> [al] <brightness>"
+          - "ajusta [el] brillo [de] <name> [al] <brightness>"
       # color
       - sentences:
           - "pon <name> [a | en] [color] {color}"
           - "pon [[el] color de] <name> (a | en) {color}"
+          - "ajusta <name> [a | en] [color] {color}"
+          - "ajusta [[el] color de] <name> (a | en) {color}"
 
